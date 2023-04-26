@@ -1,0 +1,4 @@
+__pycache__
+.env
+logs
+dags/json_data.json
