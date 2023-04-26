@@ -31,7 +31,6 @@ with DAG(
         op_kwargs={'api_url': 'http://api.coincap.io/v2/assets'},
         dag = dag
     )
-
     task2 = PythonOperator(
         task_id= 'local_to_json_stage',
         python_callable= local_to_json_stage,
